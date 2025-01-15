@@ -21,5 +21,5 @@
 
 ## Try to design this page in Grid
 
-- ![implement only this layout]![image](https://github.com/user-attachments/assets/c3f24673-9ba6-4c77-8668-2580443ce289)
+- ![implement only this layout]![image](https://github.com/user-attachments/assets/5cc71119-3423-46c2-a58c-1dde0d17ca64)
 
