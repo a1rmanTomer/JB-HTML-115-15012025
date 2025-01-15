@@ -12,7 +12,9 @@
 
 ## Homework Bootstrap Design 15/1/2025
 
-- Try to Design the following Page in Bootstrap. - ![implement only this layout](./chess.com.png)
+- Try to Design the following Page in Bootstrap.
+![image](https://github.com/user-attachments/assets/51085075-0e1b-4e74-b85f-82e46e7ca729)
+
 
 - The image is presenting a large screen resolution lg
 - When the Application Presented in sm/xs resolution support the Chess boards to spread the entire row.
