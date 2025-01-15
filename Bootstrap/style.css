@@ -17,11 +17,16 @@ body {
   background-color: #2f2e2a;
 }
 
+.top {
+  position: absolute;
+  height: fit-content;
+  width: 100dvw;
+  background-color: #2b2925;
+  padding: 1rem 2rem;
+}
+
 .top-profile {
   width: fit-content;
-  height: fit-content;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -30,11 +35,17 @@ body {
 }
 
 .top-profile img {
-  width: 5rem;
+  width: 4rem;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
 }
 
 .top-profile span {
-  font-size: 2.25rem;
+  font-size: 2rem;
+}
+
+.hero {
+  height: calc(100dvh -6rem);
+  top: 6rem;
+  width: 100%;
 }
