@@ -37,6 +37,11 @@ body {
 
 .card {
   box-shadow: 0 0.4rem 0.3rem #161614;
+  min-height: 75dvh;
+}
+
+.card-footer {
+  background-color: hsla(60, 8%, 10%, 0.562);
 }
 
 .card-body img {
@@ -45,4 +50,20 @@ body {
 
 #chess-piece {
   background-color: #ffa600;
+}
+
+#collage-hat {
+  background-color: azure;
+}
+
+.left-grid {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5rem;
+}
+
+.left-gri-items {
+  background-color: #1a1a1850;
+  width: 100%;
+  box-shadow: 0 0.4rem 0.3rem #161614;
 }
