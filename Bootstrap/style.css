@@ -11,6 +11,11 @@
   font-family: "Roboto", "Heebo";
 }
 
+#logo {
+  border-radius: 50%;
+  border: 1px solid azure;
+}
+
 .card-title,
 .card-subtitle,
 h1,
@@ -19,7 +24,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+i {
   color: #f2f2f2;
 }
 
@@ -31,4 +37,12 @@ body {
 
 .card {
   box-shadow: 0 0.4rem 0.3rem #161614;
+}
+
+.card-body img {
+  border-radius: 1rem;
+}
+
+#chess-piece {
+  background-color: #ffa600;
 }
