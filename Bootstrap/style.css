@@ -11,6 +11,18 @@
   font-family: "Roboto", "Heebo";
 }
 
+.card-title,
+.card-subtitle,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #f2f2f2;
+}
+
 body {
   height: 100dvh;
   width: 100dvw;
@@ -18,5 +30,5 @@ body {
 }
 
 .card {
-  padding: 3dvh 0.5dvw;
+  box-shadow: 0 0.4rem 0.3rem #161614;
 }
