@@ -37,7 +37,7 @@ body {
 
 .card {
   box-shadow: 0 0.4rem 0.3rem #161614;
-  min-height: 75dvh;
+  min-height: 80dvh;
 }
 
 .card-footer {
@@ -66,4 +66,24 @@ body {
   background-color: #1a1a1850;
   width: 100%;
   box-shadow: 0 0.4rem 0.3rem #161614;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#magnify-glass {
+  background-color: skyblue;
+}
+
+.card-subtitle {
+  text-align: center;
+}
+
+#big-trophy {
+  background-color: aliceblue;
+}
+
+ul i {
+  color: #898989;
+  font-size: 2rem;
 }

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chess.com Clone</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -26,16 +27,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#"><i class='bx bx-list-plus'></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#"><i class='bx bxs-chess'></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">test</a>
+            <a class="nav-link" href="#"><i class='bx bx-envelope'></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="#"><i class='bx bxs-cog'></i></a>
           </li>
         </ul>
       </div>
@@ -48,29 +49,29 @@
       <!-- left -->
       <div class="col" id="left">
         <div class="card bg-transparent">
-          <div class="card-body d-flex flex-wrap gap-3 justify-content-flex-start align-items-center">
-            <img id="chess-piece" height="74px" width="74px" src="assets/chess-piece.svg">
+          <div class="card-body d-flex flex-wrap text-align-center gap-3 justify-content-flex-start align-items-center">
+            <img id="big-trophy" height="96px" width="96px" src="assets/big-trophy.png">
             <div class="heads">
               <h3 class="card-title">Play</h3>
-              <h1 class="card-subtitle">#</h1>
+              <div class="card-subtitle d-flex gap-2 align-items-center justify-content-flex-start">
+                <h1>69</h1>
+                <img width="44px" src="assets/trophy-sprite.png">
+              </div>
             </div>
           </div>
-          <div class="left-grid">
+          <div class="col d-grid gap-3">
             <div class="left-gri-items">
-              <h1>test</h1>
+              <h1>Play 10 min</h1>
             </div>
             <div class="left-gri-items">
-              <h1>test</h1>
+              <h1>New Game</h1>
             </div>
             <div class="left-gri-items">
-              <h1>test</h1>
-            </div>
-            <div class="left-gri-items">
-              <h1>test</h1>
+              <h1>vs Computer</h1>
             </div>
           </div>
           <div class="card-footer d-flex justify-content-center">
-            <h2>Solve Puzzles</h2>
+            <h2>Play a Friend</h2>
           </div>
         </div>
       </div>
@@ -97,7 +98,7 @@
             <img id="collage-hat" height="74px" width="74px" src="assets/collage-hat.png">
             <div class="heads">
               <h3 class="card-title">Next Lesson</h3>
-              <hp class="card-subtitle">Every Pawn Structure Explained: The Closed...</hp>
+              <p class="card-subtitle">Every Pawn Structure Explained.</p>
             </div>
           </div>
           <img src="assets/lession.png" class="card-img-bottom" alt="...">
@@ -110,10 +111,13 @@
       <div class="col" id="three">
         <div class="card bg-transparent">
           <div class="card-body d-flex flex-wrap gap-3 justify-content-flex-start align-items-center">
-            <img height="74px" width="74px" src="assets/monkey.jpeg">
+            <img id="magnify-glass" height="74px" width="74px" src="assets/magnify.png">
             <div class="heads">
               <h3 class="card-title">Game review</h3>
-              <h1 class="card-subtitle">666</h1>
+              <div class="card-subtitle d-flex gap-2 align-items-center justify-content-flex-start">
+                <h1>??</h1>
+                <p>Accuracy</p>
+              </div>
             </div>
           </div>
           <img src="assets/review.png" class="card-img-bottom" alt="...">
