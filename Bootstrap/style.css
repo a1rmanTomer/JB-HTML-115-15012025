@@ -40,6 +40,10 @@ body {
   min-height: 80dvh;
 }
 
+#left {
+  min-height: 80dvh;
+}
+
 .card-footer {
   background-color: hsla(60, 8%, 10%, 0.562);
 }
